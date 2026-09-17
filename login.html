@@ -1,15 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>CV</title>
-    </head>
-    <body>
-      <h1>CV - Raihan</h1>
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body>
+    <form action="index.html" method="get">
+        <fieldset>
+        <legend>Login</legend>
         <p>
-          Ini adalah cv yang saya buat dengan vsCode
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="username..." />
         </p>
         <p>
-          <a href="index.html">Klik untuk melihat cv saya</a>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password..." />
         </p>
-    </body>
+        <p>
+            <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Login" />
+        </p>
+        </fieldset>
+    </form>
+</body>
 </html>
